@@ -1,0 +1,43 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]: Las contraseñas no coinciden
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: 💧
+      - heading "Crear Cuenta" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Regístrate para comenzar
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]: Nombre Completo *
+        - textbox "Nombre Completo *" [ref=e13]:
+          - /placeholder: Juan Pérez
+          - text: Usuario Test
+      - generic [ref=e14]:
+        - generic [ref=e15]: Correo Electrónico *
+        - textbox "Correo Electrónico *" [ref=e16]:
+          - /placeholder: tu@correo.com
+          - text: usuario1773164459920@correo.com
+      - generic [ref=e17]:
+        - generic [ref=e18]: Teléfono
+        - textbox "Teléfono" [ref=e19]:
+          - /placeholder: "6181234567"
+          - text: "6181234567"
+      - generic [ref=e20]:
+        - generic [ref=e21]: Contraseña *
+        - textbox "Contraseña *" [ref=e22]:
+          - /placeholder: ••••••••
+          - text: Test1234!
+        - text: Mínimo 6 caracteres
+      - generic [ref=e23]:
+        - generic [ref=e24]: Confirmar Contraseña *
+        - textbox "Confirmar Contraseña *" [active] [ref=e25]:
+          - /placeholder: ••••••••
+          - text: "123456"
+      - button "Registrarse" [ref=e26] [cursor=pointer]
+    - generic [ref=e27]:
+      - text: ¿Ya tienes cuenta?
+      - link "Inicia sesión aquí" [ref=e28] [cursor=pointer]:
+        - /url: login.html
+```

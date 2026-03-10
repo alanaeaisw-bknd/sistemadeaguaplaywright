@@ -1,0 +1,63 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e4]: 1 producto(s) agregado(s) al carrito
+  - navigation [ref=e5]:
+    - generic [ref=e6]: 💧 Sistema de Agua
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "Inicio" [ref=e9] [cursor=pointer]:
+          - /url: dashboard.php
+      - listitem [ref=e10]:
+        - link "Productos" [ref=e11] [cursor=pointer]:
+          - /url: productos.php
+      - listitem [ref=e12]:
+        - link "Carrito" [ref=e13] [cursor=pointer]:
+          - /url: carrito.php
+      - listitem [ref=e14]:
+        - link "Mis Ventas" [ref=e15] [cursor=pointer]:
+          - /url: ventas.php
+    - generic [ref=e16]:
+      - generic [ref=e17]: 👤 Alan Ramirez
+      - button "Salir" [ref=e18] [cursor=pointer]
+  - generic [ref=e19]:
+    - heading "Catálogo de Productos" [level=1] [ref=e20]
+    - generic [ref=e21]:
+      - strong [ref=e22]: "💡 Ventas al Mayoreo:"
+      - text: Agrega las cantidades que necesites. Mínimo 30 unidades por pedido.
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]: 🍶
+        - heading "Botella 500ml" [level=3] [ref=e26]
+        - paragraph [ref=e27]: Botella de agua purificada 500ml
+        - generic [ref=e28]: $8.00
+        - generic [ref=e29]: "Stock: 996 unidades"
+        - generic [ref=e30]:
+          - button "−" [ref=e31] [cursor=pointer]
+          - generic [ref=e32]: "1"
+          - button "+" [ref=e33] [cursor=pointer]
+        - button "Agregar al Carrito" [active] [ref=e34] [cursor=pointer]
+      - generic [ref=e35]:
+        - generic [ref=e36]: 🥤
+        - heading "Galón 3.78L" [level=3] [ref=e37]
+        - paragraph [ref=e38]: Galón de agua purificada 3.78 litros
+        - generic [ref=e39]: $25.00
+        - generic [ref=e40]: "Stock: 499 unidades"
+        - generic [ref=e41]:
+          - button "−" [ref=e42] [cursor=pointer]
+          - generic [ref=e43]: "1"
+          - button "+" [ref=e44] [cursor=pointer]
+        - button "Agregar al Carrito" [ref=e45] [cursor=pointer]
+      - generic [ref=e46]:
+        - generic [ref=e47]: 🫙
+        - heading "Garrafón 20L" [level=3] [ref=e48]
+        - paragraph [ref=e49]: Garrafón de agua purificada 20litros
+        - generic [ref=e50]: $45.00
+        - generic [ref=e51]: "Stock: 10 unidades"
+        - generic [ref=e52]:
+          - button "−" [ref=e53] [cursor=pointer]
+          - generic [ref=e54]: "1"
+          - button "+" [ref=e55] [cursor=pointer]
+        - button "Agregar al Carrito" [ref=e56] [cursor=pointer]
+```

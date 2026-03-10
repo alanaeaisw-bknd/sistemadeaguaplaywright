@@ -1,0 +1,130 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]: 💧 Sistema de Agua
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Inicio" [ref=e7] [cursor=pointer]:
+          - /url: dashboard.php
+      - listitem [ref=e8]:
+        - link "Productos" [ref=e9] [cursor=pointer]:
+          - /url: productos.php
+      - listitem [ref=e10]:
+        - link "Carrito" [ref=e11] [cursor=pointer]:
+          - /url: carrito.php
+      - listitem [ref=e12]:
+        - link "Mis Ventas" [ref=e13] [cursor=pointer]:
+          - /url: ventas.php
+    - generic [ref=e14]:
+      - generic [ref=e15]: 👤 Alan Ramirez
+      - button "Salir" [ref=e16] [cursor=pointer]
+  - generic [ref=e17]:
+    - heading "📄 Datos Fiscales para Facturación" [level=1] [ref=e18]
+    - generic [ref=e19]:
+      - strong [ref=e20]: "⚠️ Importante:"
+      - text: Todos los campos son obligatorios para generar tu factura.
+    - generic [ref=e21]:
+      - heading "Información Fiscal" [level=3] [ref=e22]
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: RFC *
+          - textbox "RFC *" [active] [ref=e26]:
+            - /placeholder: XAXX010101000
+            - text: RFC0290
+        - generic [ref=e27]:
+          - generic [ref=e28]: Razón Social *
+          - textbox "Razón Social *" [ref=e29]:
+            - /placeholder: Mi Empresa S.A. de C.V.
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: Correo Electrónico *
+          - textbox "Correo Electrónico *" [ref=e33]:
+            - /placeholder: facturacion@empresa.com
+        - generic [ref=e34]:
+          - generic [ref=e35]: Teléfono
+          - textbox "Teléfono" [ref=e36]:
+            - /placeholder: "6181234567"
+      - heading "Dirección Fiscal" [level=3] [ref=e37]
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]: Calle *
+          - textbox "Calle *" [ref=e41]:
+            - /placeholder: Av. Principal
+        - generic [ref=e42]:
+          - generic [ref=e43]: Número Exterior *
+          - textbox "Número Exterior *" [ref=e44]:
+            - /placeholder: "123"
+        - generic [ref=e45]:
+          - generic [ref=e46]: Número Interior
+          - textbox "Número Interior" [ref=e47]:
+            - /placeholder: A
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]: Colonia *
+          - textbox "Colonia *" [ref=e51]:
+            - /placeholder: Centro
+        - generic [ref=e52]:
+          - generic [ref=e53]: Código Postal *
+          - textbox "Código Postal *" [ref=e54]:
+            - /placeholder: "34000"
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - generic [ref=e57]: Municipio/Alcaldía *
+          - textbox "Municipio/Alcaldía *" [ref=e58]:
+            - /placeholder: Durango
+        - generic [ref=e59]:
+          - generic [ref=e60]: Estado *
+          - textbox "Estado *" [ref=e61]:
+            - /placeholder: Durango
+        - generic [ref=e62]:
+          - generic [ref=e63]: País *
+          - textbox "País *" [ref=e64]: México
+      - heading "Información Adicional" [level=3] [ref=e65]
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e68]: Régimen Fiscal *
+          - combobox "Régimen Fiscal *" [ref=e69]:
+            - option "Seleccione..." [selected]
+            - option "601 - General de Ley Personas Morales"
+            - option "603 - Personas Morales con Fines no Lucrativos"
+            - option "605 - Sueldos y Salarios"
+            - option "606 - Arrendamiento"
+            - option "612 - Personas Físicas con Actividades Empresariales"
+            - option "621 - Incorporación Fiscal"
+            - option "625 - Plataformas Tecnológicas"
+            - option "626 - Régimen Simplificado de Confianza"
+        - generic [ref=e70]:
+          - generic [ref=e71]: Uso de CFDI *
+          - combobox "Uso de CFDI *" [ref=e72]:
+            - option "Seleccione..." [selected]
+            - option "G01 - Adquisición de mercancías"
+            - option "G02 - Devoluciones"
+            - option "G03 - Gastos en general"
+            - option "I01 - Construcciones"
+            - option "I02 - Mobiliario"
+            - option "I03 - Equipo de transporte"
+            - option "I04 - Equipo de cómputo"
+            - option "I05 - Dados, troqueles"
+            - option "I06 - Comunicaciones"
+            - option "I07 - Comunicaciones satelitales"
+            - option "I08 - Otra maquinaria"
+            - option "D01 - Honorarios médicos"
+            - option "D02 - Gastos médicos"
+            - option "D03 - Gastos funerales"
+            - option "D04 - Donativos"
+            - option "D05 - Intereses"
+            - option "D06 - Aportaciones SAR"
+            - option "D07 - Seguros médicos"
+            - option "D08 - Transporte escolar"
+            - option "D09 - Cuentas de ahorro"
+            - option "D10 - Servicios educativos"
+            - option "S01 - Sin efectos fiscales"
+            - option "CP01 - Pagos"
+            - option "CN01 - Nómina"
+      - generic [ref=e73]:
+        - link "← Volver al Carrito" [ref=e74] [cursor=pointer]:
+          - /url: carrito.php
+        - button "Confirmar y Realizar Venta 💳" [ref=e75] [cursor=pointer]
+```
